@@ -1,0 +1,97 @@
+body {
+    color: #4D6A6D;
+    background-color: #C9ADA1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    color: black;
+    border: none;
+    height: 3px;
+    background-color: #798478;
+}
+
+form input{
+    background-color: #E5CEDC;
+}
+
+form textarea {
+    background-color: #E5CEDC;
+    margin-bottom: 1em;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.post {
+    border: 3px solid #798478;
+    padding: 1em;
+    width: 20em;
+    background-color: #EAE0CC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.nav {
+    padding: 1em;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav_bar {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+    background-color: #0E7C7B;
+    padding: .3em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+a {
+    color: #E5CEDC;
+}
+
+a:hover {
+    color: #798478;
+}
+
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 3px solid #798478;
+    width: 40%;
+    padding: .5em;
+}
+
+.success {
+    padding: 2em;
+}
